@@ -1,0 +1,10 @@
+p {
+    color: #555; /* Color del texto de los párrafos */
+    line-height: 1.6; /* Altura de línea de los párrafos */
+}
+
+img {
+    display: block; /* Muestra la imagen como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 8px; /* Bordes redondeados de la imagen */
+}
