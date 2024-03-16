@@ -1,0 +1,103 @@
+.lista-juegos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.juego {
+    width: calc(33.33% - 20px); /* Ancho del juego */
+    background-color: #f5f5f5; /* Color de fondo del juego */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.posicion-nombre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.posicion-juego {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px; /* Espaciado entre la posición y el nombre */
+}
+
+.nombre-juego {
+    font-size: 18px;
+    color: #555;
+    flex-grow: 1; /* Permite que el nombre del juego ocupe todo el espacio restante */
+    margin-right: 10px; /* Espaciado entre el nombre del juego y la nota */
+}
+
+.nota-juego {
+    font-size: 24px;
+    font-weight: bold;
+    color: #009688; /* Color de la nota */
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px; /* Aumentar el padding para hacer el botón más grande */
+    font-size: 20px; /* Aumentar el tamaño del texto del botón */
+    background-color: #ff6600; /* Color de fondo más vistoso */
+    color: #fff; /* Color del texto */
+    border: 2px solid #ff6600; /* Borde alrededor del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Quitar subrayado del enlace */
+}
+
+.button:hover {
+    background-color: #ff8533; /* Cambiar color de fondo al pasar el mouse */
+    border-color: #ff8533; /* Cambiar color del borde al pasar el mouse */
+}
+
+/*Formulario*/
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #0056b3;
+}

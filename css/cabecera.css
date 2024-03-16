@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; /* Aumentamos el espacio en la cabecera */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.login a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 16px 0; /* Aumentamos el espacio en la barra de navegación */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px; /* Tamaño de fuente predeterminado */
+    display: inline-block; /* Para que se apliquen las dimensiones */
+    padding: 10px 20px; /* Ajustamos el relleno para hacer un cuadrado */
+    border-radius: 5px; /* Añadimos bordes redondeados */
+}
+
+.spacer {
+    flex: 1;
+}
+
+/* Estilos para el cuadrado de búsqueda */
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-box button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #45a049;
+}
